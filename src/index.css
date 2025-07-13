@@ -2,6 +2,44 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@theme {
+  --colors-primary: #ECEEFF;
+  --colors-coral-red: #FF6452;
+  --colors-slate-gray: #6D6D6D;
+  --colors-pale-blue: #F5F6FF;
+  --colors-white-400: rgba(255, 255, 255, 0.80);
+
+  --font-size-xs: 12px;
+  --font-size-xs-line-height: 16px;
+  --font-size-sm: 14px;
+  --font-size-sm-line-height: 20px;
+  --font-size-base: 16px;
+  --font-size-base-line-height: 19.5px;
+  --font-size-lg: 18px;
+  --font-size-lg-line-height: 21.94px;
+  --font-size-xl: 20px;
+  --font-size-xl-line-height: 24.38px;
+  --font-size-2xl: 24px;
+  --font-size-2xl-line-height: 29.26px;
+  --font-size-3xl: 28px;
+  --font-size-3xl-line-height: 50px;
+  --font-size-4xl: 48px;
+  --font-size-4xl-line-height: 58px;
+  --font-size-8xl: 96px;
+  --font-size-8xl-line-height: 106px;
+  
+  --font-family-palanquin: 'Palanquin', 'sans-serif'; 
+  --font-family-montserrat: 'Montserrat', 'sans-serif';
+
+  --box-shadow-3xl: 0 10px 40px rgba(0, 0, 0, 0.1);
+  
+  --background-image-hero: url('assets/images/collection-background.svg');
+  --background-image-card: url('assets/images/thumbnail-background.svg');
+  
+  --screen-wide: 1440px;
+}
+
+
 * {
   margin: 0;
   padding: 0;
