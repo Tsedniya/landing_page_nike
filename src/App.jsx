@@ -14,7 +14,7 @@ const App = () => {
     <section className='padding'> 
        Popularproducts
     </section>
-      <section className='padding'> 
+      <section className='padding py-10'> 
        superquality
     </section>
       <section className='padding-x py-10'> 
@@ -28,9 +28,6 @@ const App = () => {
     </section>
     <section className='padding-x sm:py-32 py-16 w-full'> 
         subscribe
-    </section>
-     <section className='padding-x sm:py-32 py-16 w-full'> 
-        experince
     </section>
     <section className='bg-black padding-x padding-t pb-8'> 
         footer
