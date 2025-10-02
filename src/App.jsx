@@ -1,5 +1,6 @@
 import { useState } from 'react'
-
+import {Hero,Footer,CustomerReviews,PopularProducts,Services,Subscribe,SpecialOffer,SuperQuality} from './sections'
+import Nav from './components/Nav'
 import './index.css'
 
 import React from 'react'
@@ -7,33 +8,31 @@ import React from 'react'
 const App = () => {
   return (
     <main className='relative'>
-      nav
-    <section  className='xl:padding-1 wide:padding-r padding-b'>
-       hero
-    </section>
-    <section className='padding'> 
-       Popularproducts
-    </section>
-      <section className='padding py-10'> 
-       superquality
-    </section>
-      <section className='padding-x py-10'> 
-       services
-    </section>
-    <section className='padding'> 
-        specialOffer
-    </section>
-    <section className='bg-pale-blue padding'> 
-        customerreviews
-    </section>
-    <section className='padding-x sm:py-32 py-16 w-full'> 
-        subscribe
-    </section>
-    <section className='bg-black padding-x padding-t pb-8'> 
-        footer
-    </section>
-
-        
+         <Nav/>
+      <section className='xl-padding-1 wide:padding-r padding-b'>
+         <Hero/>
+      </section>
+      <section className='padding'>
+         <PopularProducts />
+      </section>
+      <section className='padding'>
+         <SuperQuality/>
+      </section>
+      <section className='padding-x py-10'>
+         <Services/>
+      </section>
+      <section className='padding'>
+         <SpecialOffer/>
+      </section>
+      <section className='bg-pale-blue padding'>
+          <CustomerReviews/>
+      </section>
+      <section className='padding-x sm:py-32 py-16 w-full'>
+          <Subscribe/>
+      </section>
+      <section className='bg-black padding-x padding-t pb-8'>
+          <Footer/>
+      </section>
         
     </main>
   )
