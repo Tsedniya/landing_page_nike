@@ -11,6 +11,9 @@ const Nav = () => {
             
             </a>
         </nav>
+        <div>
+          menu
+        </div>
     </header>
   )
 }
